@@ -1,44 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-  <url><loc>https://footballpulse-eta.vercel.app/</loc></url>
-  <url><loc>https://footballpulse-eta.vercel.app/index.html</loc></url>
-  <url><loc>https://footballpulse-eta.vercel.app/worldcup.html</loc></url>
-  <url><loc>https://footballpulse-eta.vercel.app/analysis.html</loc></url>
-  <url><loc>https://footballpulse-eta.vercel.app/transfers.html</loc></url>
-  <url><loc>https://footballpulse-eta.vercel.app/about.html</loc></url>
-  <url><loc>https://footballpulse-eta.vercel.app/contact.html</loc></url>
-  <url><loc>https://footballpulse-eta.vercel.app/privacy.html</loc></url>
+  <url>
+    <loc>https://footballpulse-eta.vercel.app/</loc>
+  </url>
 
-  <url><loc>https://footballpulse-eta.vercel.app/articles/wc-argentina-pressing.html</loc></url>
-  <url><loc>https://footballpulse-eta.vercel.app/articles/wc-france-depth.html</loc></url>
-  <url><loc>https://footballpulse-eta.vercel.app/articles/wc-england-pressure.html</loc></url>
-  <url><loc>https://footballpulse-eta.vercel.app/articles/wc-brazil-new-era.html</loc></url>
-  <url><loc>https://footballpulse-eta.vercel.app/articles/wc-germany-surprise.html</loc></url>
-  <url><loc>https://footballpulse-eta.vercel.app/articles/wc-spain-possession.html</loc></url>
-  <url><loc>https://footballpulse-eta.vercel.app/articles/wc-young-stars.html</loc></url>
-  <url><loc>https://footballpulse-eta.vercel.app/articles/wc-mexico-home-advantage.html</loc></url>
-  <url><loc>https://footballpulse-eta.vercel.app/articles/wc-dark-horses.html</loc></url>
-  <url><loc>https://footballpulse-eta.vercel.app/articles/wc-tactical-wars.html</loc></url>
-  <url><loc>https://footballpulse-eta.vercel.app/articles/wc-usa-host-pressure.html</loc></url>
-  <url><loc>https://footballpulse-eta.vercel.app/articles/wc-african-teams-rise.html</loc></url>
+  <url>
+    <loc>https://footballpulse-eta.vercel.app/worldcup.html</loc>
+  </url>
 
-  <url><loc>https://footballpulse-eta.vercel.app/articles/analysis-pressing-systems.html</loc></url>
-  <url><loc>https://footballpulse-eta.vercel.app/articles/analysis-modern-midfield.html</loc></url>
-  <url><loc>https://footballpulse-eta.vercel.app/articles/analysis-fullbacks-playmakers.html</loc></url>
-  <url><loc>https://footballpulse-eta.vercel.app/articles/analysis-number-10-decline.html</loc></url>
-  <url><loc>https://footballpulse-eta.vercel.app/articles/analysis-counterattack-vs-possession.html</loc></url>
-  <url><loc>https://footballpulse-eta.vercel.app/articles/analysis-defensive-shape.html</loc></url>
-  <url><loc>https://footballpulse-eta.vercel.app/articles/analysis-premier-league-tactics.html</loc></url>
-  <url><loc>https://footballpulse-eta.vercel.app/articles/analysis-football-data.html</loc></url>
+  <url>
+    <loc>https://footballpulse-eta.vercel.app/analysis.html</loc>
+  </url>
 
-  <url><loc>https://footballpulse-eta.vercel.app/articles/transfer-real-madrid-strategy.html</loc></url>
-  <url><loc>https://footballpulse-eta.vercel.app/articles/transfer-premier-league-spending.html</loc></url>
-  <url><loc>https://footballpulse-eta.vercel.app/articles/transfer-young-players-cost.html</loc></url>
-  <url><loc>https://footballpulse-eta.vercel.app/articles/transfer-free-agents.html</loc></url>
-  <url><loc>https://footballpulse-eta.vercel.app/articles/transfer-saudi-impact.html</loc></url>
-  <url><loc>https://footballpulse-eta.vercel.app/articles/transfer-barcelona-finances.html</loc></url>
-  <url><loc>https://footballpulse-eta.vercel.app/articles/transfer-flops-lessons.html</loc></url>
-  <url><loc>https://footballpulse-eta.vercel.app/articles/transfer-future-recruitment.html</loc></url>
+  <url>
+    <loc>https://footballpulse-eta.vercel.app/transfers.html</loc>
+  </url>
 
 </urlset>
