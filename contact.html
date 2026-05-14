@@ -1,10 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Contact FootballPulse</title>
-<link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Contact FootballPulse</title>
+
+  <meta name="description" content="Contact FootballPulse for football website feedback, article suggestions, corrections, collaboration enquiries and general questions.">
+
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -23,23 +27,37 @@
     <li><a href="about.html">About</a></li>
   </ul>
 
+  <button class="nav-hamburger" onclick="toggleMenu()">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+
 </nav>
+
+<div class="mobile-menu" id="mobileMenu">
+  <a href="index.html">Home</a>
+  <a href="worldcup.html">World Cup 2026</a>
+  <a href="analysis.html">Analysis</a>
+  <a href="transfers.html">Transfers</a>
+  <a href="about.html">About</a>
+</div>
 
 <section class="page-hero">
 
   <div class="page-hero-content">
 
     <div class="tag tag-transfer">
-      CONTACT US
+      CONTACT
     </div>
 
     <h1 class="page-title">
-      Get In Touch
+      Contact FootballPulse
     </h1>
 
     <p class="page-description">
-      Questions, feedback, partnership enquiries or advertising opportunities —
-      we'd love to hear from you.
+      Have feedback, corrections, article ideas or collaboration enquiries?
+      You can contact FootballPulse using the details below.
     </p>
 
   </div>
@@ -48,70 +66,129 @@
 
 <main class="page-main">
 
-<div class="container">
+  <div class="container">
 
-<div class="article-container">
+    <section class="wc-feature">
 
-<h2>Contact Information</h2>
+      <div class="wc-feature-left">
 
-<p>
-For general enquiries, business partnerships or feedback,
-please contact us through the details below.
-</p>
+        <div class="tag tag-tactics">
+          GET IN TOUCH
+        </div>
 
-<div class="contact-box">
+        <h2>
+          We welcome feedback and article suggestions
+        </h2>
 
-<p>
-<strong>Email:</strong>
-footballpulsemedia@gmail.com
-</p>
+        <p>
+          FootballPulse is focused on publishing football stories, tactical analysis,
+          World Cup coverage and transfer market insight. If you notice an issue,
+          want to suggest a topic, or have a general enquiry, feel free to contact us.
+        </p>
 
-<p>
-<strong>Location:</strong>
-India
-</p>
+        <p>
+          Email:
+          <a href="mailto:kabraaarush000@gmail.com" class="see-all">
+            kabraaarush000@gmail.com
+          </a>
+        </p>
 
-<p>
-<strong>Response Time:</strong>
-Usually within 24-48 hours
-</p>
+      </div>
 
-</div>
+    </section>
 
-<h2>Advertising & Partnerships</h2>
+    <div class="section-header">
+      <h2 class="section-title">
+        Contact <span>Reasons</span>
+      </h2>
+    </div>
 
-<p>
-FootballPulse is open to sponsorships, collaborations,
-brand partnerships and football-related advertising opportunities.
-</p>
+    <div class="articles-grid">
 
-<div class="ad-slot">
-Advertisement - Google AdSense Area
-</div>
+      <div class="article-card">
+        <div class="tag tag-wc">Suggestions</div>
+        <div class="article-title">
+          Article Ideas
+        </div>
+        <div class="article-excerpt">
+          Suggest World Cup topics, tactical breakdowns, transfer market stories
+          or football trends you want us to cover.
+        </div>
+      </div>
 
-</div>
+      <div class="article-card">
+        <div class="tag tag-tactics">Corrections</div>
+        <div class="article-title">
+          Corrections and Updates
+        </div>
+        <div class="article-excerpt">
+          If you find a spelling error, broken link or outdated information,
+          contact us so we can review and improve the page.
+        </div>
+      </div>
 
-</div>
+      <div class="article-card">
+        <div class="tag tag-transfer">Business</div>
+        <div class="article-title">
+          Collaboration Enquiries
+        </div>
+        <div class="article-excerpt">
+          For partnership, collaboration or general website enquiries,
+          reach out through email.
+        </div>
+      </div>
+
+    </div>
+
+    <section class="wc-feature">
+
+      <div class="wc-feature-left">
+
+        <div class="tag tag-wc">
+          RESPONSE NOTE
+        </div>
+
+        <h2>
+          We try to respond as soon as possible
+        </h2>
+
+        <p>
+          FootballPulse is an independent football website. Response times may vary,
+          but we review genuine messages, corrections and feedback carefully.
+        </p>
+
+      </div>
+
+    </section>
+
+  </div>
 
 </main>
 
 <footer>
 
-<div class="footer-logo">
-Football<span>Pulse</span>
-</div>
+  <div class="footer-logo">
+    Football<span>Pulse</span>
+  </div>
 
-<div class="footer-links">
-<a href="about.html">About</a>
-<a href="contact.html">Contact</a>
-<a href="#">Privacy Policy</a>
-</div>
+  <div class="footer-links">
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+    <a href="privacy.html">Privacy Policy</a>
+  </div>
 
-<div class="footer-copy">
-2026 FootballPulse. All rights reserved.
-</div>
+  <div class="footer-copy">
+    2026 FootballPulse. All rights reserved.
+  </div>
 
 </footer>
+
+<script>
+  function toggleMenu() {
+    const mobileMenu = document.getElementById("mobileMenu");
+    mobileMenu.classList.toggle("active");
+  }
+</script>
 
 </body>
 </html>

@@ -1,10 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>About FootballPulse</title>
-<link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>About FootballPulse</title>
+
+  <meta name="description" content="Learn about FootballPulse, a football website covering World Cup 2026 stories, tactical analysis, transfer market insight and modern football trends.">
+
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -23,23 +27,38 @@
     <li><a href="about.html" class="active">About</a></li>
   </ul>
 
+  <button class="nav-hamburger" onclick="toggleMenu()">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+
 </nav>
+
+<div class="mobile-menu" id="mobileMenu">
+  <a href="index.html">Home</a>
+  <a href="worldcup.html">World Cup 2026</a>
+  <a href="analysis.html">Analysis</a>
+  <a href="transfers.html">Transfers</a>
+  <a href="about.html">About</a>
+</div>
 
 <section class="page-hero">
 
   <div class="page-hero-content">
 
     <div class="tag tag-wc">
-      ABOUT FOOTBALLPULSE
+      ABOUT US
     </div>
 
     <h1 class="page-title">
-      Independent Football Coverage
+      About FootballPulse
     </h1>
 
     <p class="page-description">
-      FootballPulse delivers tactical analysis, transfer news,
-      tournament coverage and football stories from around the world.
+      FootballPulse is built for football fans who want more than quick headlines.
+      We cover World Cup stories, tactical analysis, transfer market trends and the
+      deeper ideas shaping modern football.
     </p>
 
   </div>
@@ -48,74 +67,135 @@
 
 <main class="page-main">
 
-<div class="container">
+  <div class="container">
 
-<div class="article-container">
+    <section class="wc-feature">
 
-<h2>Who We Are</h2>
+      <div class="wc-feature-left">
 
-<p>
-FootballPulse is a modern football media platform focused on delivering
-high-quality football journalism, tactical analysis and transfer coverage.
-</p>
+        <div class="tag tag-tactics">
+          OUR MISSION
+        </div>
 
-<p>
-Our goal is to provide fans with insightful and engaging football content
-covering major tournaments, club football and rising talents across the game.
-</p>
+        <h2>
+          Clear, detailed football writing for serious fans
+        </h2>
 
-<h2>What We Cover</h2>
+        <p>
+          FootballPulse aims to explain football in a simple but detailed way.
+          Our articles focus on tactical ideas, squad building, tournament stories,
+          transfer strategy and the changing business of the game.
+        </p>
 
-<ul class="about-list">
+        <p>
+          We write for fans who enjoy understanding why teams win, how managers
+          build systems, why transfer decisions matter and how major tournaments
+          create football history.
+        </p>
 
-<li>FIFA World Cup 2026 Coverage</li>
-<li>Transfer News & Rumours</li>
-<li>Match Analysis</li>
-<li>Football Tactics</li>
-<li>Player Features</li>
-<li>European Club Football</li>
+      </div>
 
-</ul>
+    </section>
 
-<h2>Our Mission</h2>
+    <div class="section-header">
+      <h2 class="section-title">
+        What We <span>Cover</span>
+      </h2>
+    </div>
 
-<p>
-We aim to make football coverage smarter, faster and more engaging for fans
-across the globe.
-</p>
+    <div class="articles-grid">
 
-<p>
-FootballPulse combines modern sports journalism with clean design and
-easy-to-read analysis.
-</p>
+      <div class="article-card" onclick="window.location='worldcup.html'">
+        <div class="tag tag-wc">World Cup</div>
+        <div class="article-title">
+          World Cup 2026 Coverage
+        </div>
+        <div class="article-excerpt">
+          Stories, team analysis, host nation angles, dark horses, young stars and
+          tournament trends from USA, Canada and Mexico.
+        </div>
+      </div>
 
-<div class="ad-slot">
-Advertisement - Google AdSense Area
-</div>
+      <div class="article-card" onclick="window.location='analysis.html'">
+        <div class="tag tag-tactics">Analysis</div>
+        <div class="article-title">
+          Tactical Football Analysis
+        </div>
+        <div class="article-excerpt">
+          Deep but readable breakdowns of pressing, midfield control, defensive shape,
+          fullbacks, data and modern tactical systems.
+        </div>
+      </div>
 
-</div>
+      <div class="article-card" onclick="window.location='transfers.html'">
+        <div class="tag tag-transfer">Transfers</div>
+        <div class="article-title">
+          Transfer Market Insight
+        </div>
+        <div class="article-excerpt">
+          Articles on recruitment, spending, young player value, free transfers,
+          club finances and how football markets are changing.
+        </div>
+      </div>
 
-</div>
+    </div>
+
+    <section class="wc-feature">
+
+      <div class="wc-feature-left">
+
+        <div class="tag tag-transfer">
+          EDITORIAL NOTE
+        </div>
+
+        <h2>
+          Independent football content
+        </h2>
+
+        <p>
+          FootballPulse publishes football analysis, opinion articles and market discussion.
+          Transfer-related content may include interpretation, analysis and discussion of
+          football trends. Official transfer confirmation should always come from clubs,
+          leagues or verified official sources.
+        </p>
+
+        <p>
+          Our goal is to create useful, original and readable football content that helps
+          fans understand the game better.
+        </p>
+
+      </div>
+
+    </section>
+
+  </div>
 
 </main>
 
 <footer>
 
-<div class="footer-logo">
-Football<span>Pulse</span>
-</div>
+  <div class="footer-logo">
+    Football<span>Pulse</span>
+  </div>
 
-<div class="footer-links">
-<a href="about.html">About</a>
-<a href="contact.html">Contact</a>
-<a href="#">Privacy Policy</a>
-</div>
+  <div class="footer-links">
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+    <a href="privacy.html">Privacy Policy</a>
+  </div>
 
-<div class="footer-copy">
-2026 FootballPulse. All rights reserved.
-</div>
+  <div class="footer-copy">
+    2026 FootballPulse. All rights reserved.
+  </div>
 
 </footer>
+
+<script>
+  function toggleMenu() {
+    const mobileMenu = document.getElementById("mobileMenu");
+    mobileMenu.classList.toggle("active");
+  }
+</script>
 
 </body>
 </html>
